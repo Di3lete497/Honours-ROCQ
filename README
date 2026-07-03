@@ -1,0 +1,19 @@
+# Deutsch-Jozsa Formal Verification
+
+This repository contains the Rocq implementation accompanying the Honours dissertation.
+
+The work formalises the Deutsch-Jozsa algorithm, oracle assumptions, correctness properties and later extends to Grover's search algorithm.
+
+Current Progress
+
+✓ Bitstring definitions
+
+✓ Oracle definitions
+
+✓ Promise definitions
+
+□ DJ correctness proof
+
+□ Grover verification
+
+Currently as of 3/7/26, the majority of the frameworks has proofs written as Admitted. This is only a placeholder for building but they will be replaced by actual ROCQ proofs as the project progresses
