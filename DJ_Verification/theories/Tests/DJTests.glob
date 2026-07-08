@@ -1,0 +1,257 @@
+DIGEST 8ab348a16bd4a94622178c145ba6d70b
+FDJ.Tests.DJTests
+R351:354 Coq.Lists.List <> <> lib
+R356:359 Coq.Bool.Bool <> <> lib
+R361:365 Coq.Arith.Arith <> <> lib
+R367:369 Coq.micromega.Lia <> <> lib
+R371:379 Coq.Logic.Classical <> <> lib
+R390:402 Coq.Lists.List ListNotations <> mod
+R423:447 DJ.Foundations.BitStrings <> <> lib
+R466:491 DJ.Foundations.Enumeration <> <> lib
+R510:532 DJ.Foundations.Counting <> <> lib
+R553:579 DJ.Oracles.BooleanFunctions <> <> lib
+R598:615 DJ.Oracles.Oracles <> <> lib
+R634:651 DJ.Oracles.Promise <> <> lib
+R672:695 DJ.Verification.Balanced <> <> lib
+R714:741 DJ.Verification.OracleProofs <> <> lib
+R762:779 DJ.DeutschJozsa.DJ <> <> lib
+R798:821 DJ.DeutschJozsa.DJProofs <> <> lib
+def 1032:1046 <> count_ones_test
+R1089:1091 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R1053:1062 DJ.Foundations.BitStrings <> count_ones def
+R1064:1064 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R1069:1070 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R1076:1077 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R1082:1083 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R1088:1088 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R1065:1068 Coq.Init.Datatypes <> true constr
+R1071:1075 Coq.Init.Datatypes <> false constr
+R1078:1081 Coq.Init.Datatypes <> true constr
+R1084:1087 Coq.Init.Datatypes <> true constr
+def 1136:1153 <> constant_zero_test
+binder 1167:1167 <> x:1
+R1190:1192 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R1175:1187 DJ.Oracles.Oracles <> constant_zero def
+R1189:1189 DJ.Tests.DJTests <> x:1 var
+R1193:1197 Coq.Init.Datatypes <> false constr
+R1217:1239 DJ.Oracles.Oracles <> constant_zero_evaluates thm
+R1217:1239 DJ.Oracles.Oracles <> constant_zero_evaluates thm
+def 1259:1269 <> parity_test
+R1295:1297 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R1276:1281 DJ.Foundations.BitStrings <> parity def
+R1283:1283 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R1288:1289 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R1294:1294 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R1284:1287 Coq.Init.Datatypes <> true constr
+R1290:1293 Coq.Init.Datatypes <> true constr
+R1298:1302 Coq.Init.Datatypes <> false constr
+def 1346:1359 <> first_bit_test
+R1396:1398 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R1366:1374 DJ.Foundations.BitStrings <> first_bit def
+R1376:1376 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R1381:1382 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R1388:1389 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R1395:1395 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R1377:1380 Coq.Init.Datatypes <> true constr
+R1383:1387 Coq.Init.Datatypes <> false constr
+R1390:1394 Coq.Init.Datatypes <> false constr
+R1399:1402 Coq.Init.Datatypes <> true constr
+def 1446:1458 <> last_bit_test
+R1493:1495 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R1465:1472 DJ.Foundations.BitStrings <> last_bit def
+R1474:1474 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R1479:1480 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R1486:1487 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R1492:1492 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R1475:1478 Coq.Init.Datatypes <> true constr
+R1481:1485 Coq.Init.Datatypes <> false constr
+R1488:1491 Coq.Init.Datatypes <> true constr
+R1496:1499 Coq.Init.Datatypes <> true constr
+def 1740:1758 <> enumerate_zero_bits
+R1787:1789 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R1765:1784 DJ.Foundations.Enumeration <> enumerate_bitstrings def
+R1790:1790 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
+R1793:1793 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
+R1791:1792 Coq.Lists.List ListNotations ::list_scope:'['_']' not
+def 2034:2048 <> count_true_test
+R2091:2093 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R2055:2064 DJ.Foundations.Counting <> count_true def
+R2066:2066 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R2071:2072 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R2078:2079 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R2084:2085 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R2090:2090 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R2067:2070 Coq.Init.Datatypes <> true constr
+R2073:2077 Coq.Init.Datatypes <> false constr
+R2080:2083 Coq.Init.Datatypes <> true constr
+R2086:2089 Coq.Init.Datatypes <> true constr
+def 2138:2153 <> count_false_test
+R2197:2199 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R2160:2170 DJ.Foundations.Counting <> count_false def
+R2172:2172 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R2177:2178 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R2184:2185 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R2190:2191 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R2196:2196 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R2173:2176 Coq.Init.Datatypes <> true constr
+R2179:2183 Coq.Init.Datatypes <> false constr
+R2186:2189 Coq.Init.Datatypes <> true constr
+R2192:2195 Coq.Init.Datatypes <> true constr
+def 2441:2455 <> evaluate_parity
+R2491:2493 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R2462:2469 DJ.Oracles.BooleanFunctions <> evaluate def
+R2471:2476 DJ.Foundations.BitStrings <> parity def
+R2478:2478 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R2483:2484 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R2490:2490 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R2479:2482 Coq.Init.Datatypes <> true constr
+R2485:2489 Coq.Init.Datatypes <> false constr
+R2494:2499 DJ.Foundations.BitStrings <> parity def
+R2501:2501 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R2506:2507 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R2513:2513 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R2502:2505 Coq.Init.Datatypes <> true constr
+R2508:2512 Coq.Init.Datatypes <> false constr
+def 2557:2571 <> evaluate_affine
+R2606:2608 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R2578:2585 DJ.Oracles.BooleanFunctions <> evaluate def
+R2587:2592 DJ.Oracles.BooleanFunctions <> affine def
+R2594:2594 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R2599:2600 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R2605:2605 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R2595:2598 Coq.Init.Datatypes <> true constr
+R2601:2604 Coq.Init.Datatypes <> true constr
+R2609:2614 DJ.Oracles.BooleanFunctions <> affine def
+R2616:2616 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R2621:2622 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R2627:2627 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R2617:2620 Coq.Init.Datatypes <> true constr
+R2623:2626 Coq.Init.Datatypes <> true constr
+def 2868:2889 <> promise_partition_test
+binder 2903:2903 <> n:2
+binder 2905:2905 <> f:3
+R2929:2932 Coq.Init.Logic <> ::type_scope:x_'\/'_x not
+R2913:2924 DJ.Oracles.Promise <> PromiseHolds def
+R2926:2926 DJ.Tests.DJTests <> n:2 var
+R2928:2928 DJ.Tests.DJTests <> f:3 var
+R2933:2944 DJ.Oracles.Promise <> PromiseFails def
+R2946:2946 DJ.Tests.DJTests <> n:2 var
+R2948:2948 DJ.Tests.DJTests <> f:3 var
+R2968:2984 DJ.DeutschJozsa.DJProofs <> promise_partition thm
+R2968:2984 DJ.DeutschJozsa.DJProofs <> promise_partition thm
+def 3004:3026 <> promise_or_invalid_test
+binder 3040:3040 <> n:4
+binder 3042:3042 <> f:5
+R3063:3066 Coq.Init.Logic <> ::type_scope:x_'\/'_x not
+R3050:3058 DJ.Verification.Balanced <> DJPromise def
+R3060:3060 DJ.Tests.DJTests <> n:4 var
+R3062:3062 DJ.Tests.DJTests <> f:5 var
+R3067:3073 DJ.Verification.Balanced <> Invalid def
+R3075:3075 DJ.Tests.DJTests <> n:4 var
+R3077:3077 DJ.Tests.DJTests <> f:5 var
+R3097:3114 DJ.DeutschJozsa.DJProofs <> promise_or_invalid thm
+R3097:3114 DJ.DeutschJozsa.DJProofs <> promise_or_invalid thm
+def 3134:3158 <> invalid_is_undefined_test
+binder 3172:3172 <> n:6
+binder 3174:3174 <> f:7
+R3198:3206 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3182:3193 DJ.Oracles.Promise <> PromiseFails def
+R3195:3195 DJ.Tests.DJTests <> n:6 var
+R3197:3197 DJ.Tests.DJTests <> f:7 var
+R3207:3224 DJ.Oracles.Promise <> UndefinedBehaviour def
+R3226:3226 DJ.Tests.DJTests <> n:6 var
+R3228:3228 DJ.Tests.DJTests <> f:7 var
+R3248:3267 DJ.Oracles.Promise <> invalid_is_undefined thm
+R3248:3267 DJ.Oracles.Promise <> invalid_is_undefined thm
+def 3484:3510 <> promise_implies_not_invalid
+binder 3524:3524 <> n:8
+binder 3526:3526 <> f:9
+R3550:3558 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3534:3545 DJ.Oracles.Promise <> PromiseHolds def
+R3547:3547 DJ.Tests.DJTests <> n:8 var
+R3549:3549 DJ.Tests.DJTests <> f:9 var
+R3559:3560 Coq.Init.Logic <> ::type_scope:'~'_x not
+R3561:3572 DJ.Oracles.Promise <> PromiseFails def
+R3574:3574 DJ.Tests.DJTests <> n:8 var
+R3576:3576 DJ.Tests.DJTests <> f:9 var
+R3596:3618 DJ.Oracles.Promise <> promise_implies_defined thm
+R3596:3618 DJ.Oracles.Promise <> promise_implies_defined thm
+def 3638:3655 <> promise_cases_test
+binder 3669:3669 <> n:10
+binder 3671:3671 <> f:11
+R3692:3701 Coq.Init.Logic <> ::type_scope:x_'<->'_x not
+R3679:3687 DJ.Verification.Balanced <> DJPromise def
+R3689:3689 DJ.Tests.DJTests <> n:10 var
+R3691:3691 DJ.Tests.DJTests <> f:11 var
+R3714:3717 Coq.Init.Logic <> ::type_scope:x_'\/'_x not
+R3702:3709 DJ.Verification.Balanced <> Constant def
+R3711:3711 DJ.Tests.DJTests <> n:10 var
+R3713:3713 DJ.Tests.DJTests <> f:11 var
+R3718:3725 DJ.Verification.Balanced <> Balanced def
+R3727:3727 DJ.Tests.DJTests <> n:10 var
+R3729:3729 DJ.Tests.DJTests <> f:11 var
+R3749:3761 DJ.Oracles.Promise <> promise_cases thm
+R3749:3761 DJ.Oracles.Promise <> promise_cases thm
+R3978:3987 DJ.Foundations.BitStrings <> count_ones def
+R3989:3989 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R3994:3995 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R4001:4002 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R4007:4008 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R4013:4013 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R3990:3993 Coq.Init.Datatypes <> true constr
+R3996:4000 Coq.Init.Datatypes <> false constr
+R4003:4006 Coq.Init.Datatypes <> true constr
+R4009:4012 Coq.Init.Datatypes <> true constr
+R4027:4037 DJ.Foundations.BitStrings <> count_zeros def
+R4039:4039 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R4044:4045 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R4051:4052 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R4057:4058 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R4063:4063 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R4040:4043 Coq.Init.Datatypes <> true constr
+R4046:4050 Coq.Init.Datatypes <> false constr
+R4053:4056 Coq.Init.Datatypes <> true constr
+R4059:4062 Coq.Init.Datatypes <> true constr
+R4077:4082 DJ.Foundations.BitStrings <> parity def
+R4084:4084 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R4089:4090 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R4096:4097 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R4102:4102 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R4085:4088 Coq.Init.Datatypes <> true constr
+R4091:4095 Coq.Init.Datatypes <> false constr
+R4098:4101 Coq.Init.Datatypes <> true constr
+R4116:4124 DJ.Foundations.BitStrings <> first_bit def
+R4126:4126 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R4131:4132 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R4138:4138 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R4127:4130 Coq.Init.Datatypes <> true constr
+R4133:4137 Coq.Init.Datatypes <> false constr
+R4152:4159 DJ.Foundations.BitStrings <> last_bit def
+R4161:4161 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R4166:4167 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R4173:4174 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R4179:4179 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R4162:4165 Coq.Init.Datatypes <> true constr
+R4168:4172 Coq.Init.Datatypes <> false constr
+R4175:4178 Coq.Init.Datatypes <> true constr
+R4193:4212 DJ.Foundations.Enumeration <> enumerate_bitstrings def
+R4228:4237 DJ.Foundations.Counting <> count_true def
+R4239:4239 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R4244:4245 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R4251:4252 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R4257:4258 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R4264:4264 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R4240:4243 Coq.Init.Datatypes <> true constr
+R4246:4250 Coq.Init.Datatypes <> false constr
+R4253:4256 Coq.Init.Datatypes <> true constr
+R4259:4263 Coq.Init.Datatypes <> false constr
+R4278:4288 DJ.Foundations.Counting <> count_false def
+R4290:4290 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R4295:4296 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R4302:4303 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R4308:4309 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R4315:4315 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R4291:4294 Coq.Init.Datatypes <> true constr
+R4297:4301 Coq.Init.Datatypes <> false constr
+R4304:4307 Coq.Init.Datatypes <> true constr
+R4310:4314 Coq.Init.Datatypes <> false constr

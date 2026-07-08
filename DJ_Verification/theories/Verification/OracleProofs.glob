@@ -1,0 +1,180 @@
+DIGEST 5e9bd72e3f3ccd1e05f5ce270fff417f
+FDJ.Verification.OracleProofs
+R221:224 Coq.Bool.Bool <> <> lib
+R226:229 Coq.Lists.List <> <> lib
+R231:235 Coq.Arith.Arith <> <> lib
+R237:239 Coq.micromega.Lia <> <> lib
+R252:264 Coq.Lists.List ListNotations <> mod
+R285:309 DJ.Foundations.BitStrings <> <> lib
+R328:350 DJ.Foundations.Counting <> <> lib
+R369:394 DJ.Foundations.Enumeration <> <> lib
+R415:441 DJ.Oracles.BooleanFunctions <> <> lib
+R460:477 DJ.Oracles.Oracles <> <> lib
+R496:513 DJ.Oracles.Promise <> <> lib
+R534:557 DJ.Verification.Balanced <> <> lib
+prf 764:783 <> count_true_map_false
+R802:805 Coq.Init.Datatypes <> list ind
+R807:815 DJ.Foundations.BitStrings <> BitString def
+binder 798:798 <> l:1
+R857:859 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R822:831 DJ.Foundations.Counting <> count_true def
+R834:836 Coq.Lists.List <> map def
+R855:855 DJ.Verification.OracleProofs <> l:1 var
+R848:852 Coq.Init.Datatypes <> false constr
+prf 970:988 <> count_true_map_true
+R1007:1010 Coq.Init.Datatypes <> list ind
+R1012:1020 DJ.Foundations.BitStrings <> BitString def
+binder 1003:1003 <> l:2
+R1061:1063 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R1027:1036 DJ.Foundations.Counting <> count_true def
+R1039:1041 Coq.Lists.List <> map def
+R1059:1059 DJ.Verification.OracleProofs <> l:2 var
+R1053:1056 Coq.Init.Datatypes <> true constr
+R1064:1069 Coq.Init.Datatypes <> length def
+R1071:1071 DJ.Verification.OracleProofs <> l:2 var
+prf 1179:1205 <> enumerate_bitstrings_length
+binder 1219:1219 <> n:3
+R1256:1258 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R1225:1230 Coq.Init.Datatypes <> length def
+R1233:1252 DJ.Foundations.Enumeration <> enumerate_bitstrings def
+R1254:1254 DJ.Verification.OracleProofs <> n:3 var
+R1259:1265 Coq.Arith.PeanoNat Nat pow def
+R1269:1269 DJ.Verification.OracleProofs <> n:3 var
+prf 1583:1607 <> constant_zero_is_constant
+binder 1623:1623 <> n:4
+R1631:1638 DJ.Verification.Balanced <> Constant def
+R1640:1640 DJ.Verification.OracleProofs <> n:4 var
+R1642:1654 DJ.Oracles.Oracles <> constant_zero def
+R1687:1694 DJ.Verification.Balanced <> Constant def
+R1718:1735 DJ.Foundations.Counting <> count_true_outputs def
+R1750:1763 DJ.Foundations.Counting <> oracle_outputs def
+R1778:1790 DJ.Oracles.Oracles <> constant_zero def
+R1804:1823 DJ.Verification.OracleProofs <> count_true_map_false thm
+R1804:1823 DJ.Verification.OracleProofs <> count_true_map_false thm
+prf 1845:1868 <> constant_one_is_constant
+binder 1884:1884 <> n:5
+R1892:1899 DJ.Verification.Balanced <> Constant def
+R1901:1901 DJ.Verification.OracleProofs <> n:5 var
+R1903:1914 DJ.Oracles.Oracles <> constant_one def
+R1947:1954 DJ.Verification.Balanced <> Constant def
+R1979:1997 DJ.Foundations.Counting <> count_false_outputs def
+R2010:2027 DJ.Foundations.Counting <> count_true_outputs def
+R2040:2053 DJ.Foundations.Counting <> oracle_outputs def
+R2066:2082 DJ.Foundations.Enumeration <> enumerate_outputs def
+R2095:2106 DJ.Oracles.Oracles <> constant_one def
+R2134:2152 DJ.Verification.OracleProofs <> count_true_map_true thm
+R2134:2152 DJ.Verification.OracleProofs <> count_true_map_true thm
+R2134:2152 DJ.Verification.OracleProofs <> count_true_map_true thm
+R2167:2182 DJ.Foundations.Enumeration <> number_of_inputs def
+R2198:2224 DJ.Verification.OracleProofs <> enumerate_bitstrings_length prfax
+R2198:2224 DJ.Verification.OracleProofs <> enumerate_bitstrings_length prfax
+R2198:2224 DJ.Verification.OracleProofs <> enumerate_bitstrings_length prfax
+prf 2453:2473 <> first_bit_is_balanced
+binder 2489:2489 <> n:6
+R2497:2504 DJ.Verification.Balanced <> Balanced def
+R2506:2506 DJ.Verification.OracleProofs <> n:6 var
+R2508:2523 DJ.Oracles.Oracles <> oracle_first_bit def
+prf 2556:2573 <> parity_is_balanced
+binder 2589:2589 <> n:7
+R2597:2604 DJ.Verification.Balanced <> Balanced def
+R2606:2606 DJ.Verification.OracleProofs <> n:7 var
+R2608:2620 DJ.Oracles.Oracles <> oracle_parity def
+prf 2653:2675 <> full_parity_is_balanced
+binder 2691:2691 <> n:8
+R2699:2706 DJ.Verification.Balanced <> Balanced def
+R2708:2708 DJ.Verification.OracleProofs <> n:8 var
+R2710:2727 DJ.Oracles.Oracles <> oracle_full_parity def
+prf 2760:2783 <> xor_two_bits_is_balanced
+binder 2799:2799 <> n:9
+R2807:2814 DJ.Verification.Balanced <> Balanced def
+R2816:2816 DJ.Verification.OracleProofs <> n:9 var
+R2818:2836 DJ.Oracles.Oracles <> oracle_xor_two_bits def
+prf 3066:3083 <> affine_is_balanced
+binder 3099:3099 <> n:10
+R3107:3114 DJ.Verification.Balanced <> Balanced def
+R3116:3116 DJ.Verification.OracleProofs <> n:10 var
+R3118:3130 DJ.Oracles.Oracles <> oracle_affine def
+prf 3360:3382 <> and_xor_is_not_constant
+binder 3398:3398 <> n:11
+R3406:3407 Coq.Init.Logic <> ::type_scope:'~'_x not
+R3408:3415 DJ.Verification.Balanced <> Constant def
+R3417:3417 DJ.Verification.OracleProofs <> n:11 var
+R3419:3432 DJ.Oracles.Oracles <> oracle_and_xor def
+prf 3662:3677 <> majority_invalid
+binder 3693:3693 <> n:12
+R3701:3707 DJ.Verification.Balanced <> Invalid def
+R3709:3709 DJ.Verification.OracleProofs <> n:12 var
+R3711:3725 DJ.Oracles.Oracles <> oracle_majority def
+prf 3758:3778 <> single_marked_invalid
+binder 3794:3794 <> n:13
+R3800:3806 DJ.Verification.Balanced <> Invalid def
+R3808:3808 DJ.Verification.OracleProofs <> n:13 var
+R3810:3829 DJ.Oracles.Oracles <> oracle_single_marked def
+prf 4059:4085 <> first_bit_satisfies_promise
+binder 4101:4101 <> n:14
+R4107:4115 DJ.Verification.Balanced <> DJPromise def
+R4117:4117 DJ.Verification.OracleProofs <> n:14 var
+R4119:4134 DJ.Oracles.Oracles <> oracle_first_bit def
+R4181:4201 DJ.Verification.OracleProofs <> first_bit_is_balanced prfax
+R4181:4201 DJ.Verification.OracleProofs <> first_bit_is_balanced prfax
+prf 4224:4247 <> parity_satisfies_promise
+binder 4263:4263 <> n:15
+R4269:4277 DJ.Verification.Balanced <> DJPromise def
+R4279:4279 DJ.Verification.OracleProofs <> n:15 var
+R4281:4293 DJ.Oracles.Oracles <> oracle_parity def
+R4336:4353 DJ.Verification.OracleProofs <> parity_is_balanced prfax
+R4336:4353 DJ.Verification.OracleProofs <> parity_is_balanced prfax
+prf 4376:4399 <> affine_satisfies_promise
+binder 4415:4415 <> n:16
+R4421:4429 DJ.Verification.Balanced <> DJPromise def
+R4431:4431 DJ.Verification.OracleProofs <> n:16 var
+R4433:4445 DJ.Oracles.Oracles <> oracle_affine def
+R4488:4505 DJ.Verification.OracleProofs <> affine_is_balanced prfax
+R4488:4505 DJ.Verification.OracleProofs <> affine_is_balanced prfax
+prf 4528:4558 <> constant_zero_satisfies_promise
+binder 4574:4574 <> n:17
+R4580:4588 DJ.Verification.Balanced <> DJPromise def
+R4590:4590 DJ.Verification.OracleProofs <> n:17 var
+R4592:4604 DJ.Oracles.Oracles <> constant_zero def
+R4646:4670 DJ.Verification.OracleProofs <> constant_zero_is_constant thm
+R4646:4670 DJ.Verification.OracleProofs <> constant_zero_is_constant thm
+prf 4693:4722 <> constant_one_satisfies_promise
+binder 4738:4738 <> n:18
+R4744:4752 DJ.Verification.Balanced <> DJPromise def
+R4754:4754 DJ.Verification.OracleProofs <> n:18 var
+R4756:4767 DJ.Oracles.Oracles <> constant_one def
+R4809:4832 DJ.Verification.OracleProofs <> constant_one_is_constant thm
+R4809:4832 DJ.Verification.OracleProofs <> constant_one_is_constant thm
+prf 4855:4883 <> full_parity_satisfies_promise
+binder 4899:4899 <> n:19
+R4905:4913 DJ.Verification.Balanced <> DJPromise def
+R4915:4915 DJ.Verification.OracleProofs <> n:19 var
+R4917:4934 DJ.Oracles.Oracles <> oracle_full_parity def
+R4977:4999 DJ.Verification.OracleProofs <> full_parity_is_balanced prfax
+R4977:4999 DJ.Verification.OracleProofs <> full_parity_is_balanced prfax
+prf 5217:5237 <> affine_oracle_correct
+binder 5253:5253 <> x:20
+R5276:5278 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R5261:5273 DJ.Oracles.Oracles <> oracle_affine def
+R5275:5275 DJ.Verification.OracleProofs <> x:20 var
+R5279:5284 DJ.Oracles.BooleanFunctions <> affine def
+R5286:5286 DJ.Verification.OracleProofs <> x:20 var
+prf 5332:5358 <> xor_two_bits_oracle_correct
+binder 5374:5374 <> x:21
+R5403:5405 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R5382:5400 DJ.Oracles.Oracles <> oracle_xor_two_bits def
+R5402:5402 DJ.Verification.OracleProofs <> x:21 var
+R5406:5417 DJ.Oracles.BooleanFunctions <> xor_two_bits def
+R5419:5419 DJ.Verification.OracleProofs <> x:21 var
+prf 5467:5487 <> parity_oracle_correct
+binder 5503:5503 <> x:22
+R5526:5528 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R5511:5523 DJ.Oracles.Oracles <> oracle_parity def
+R5525:5525 DJ.Verification.OracleProofs <> x:22 var
+R5529:5534 DJ.Foundations.BitStrings <> parity def
+R5536:5536 DJ.Verification.OracleProofs <> x:22 var
+prf 5584:5617 <> example_balanced_satisfies_promise
+binder 5633:5633 <> n:23
+R5641:5649 DJ.Verification.Balanced <> DJPromise def
+R5651:5651 DJ.Verification.OracleProofs <> n:23 var
+R5653:5675 DJ.Oracles.Oracles <> oracle_example_balanced def

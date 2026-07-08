@@ -1,0 +1,181 @@
+DIGEST 852e82cb5dfc93318a723c5dfaea2701
+FDJ.Foundations.BitStrings
+R481:484 Coq.Bool.Bool <> <> lib
+R486:489 Coq.Lists.List <> <> lib
+R491:495 Coq.Arith.Arith <> <> lib
+R506:518 Coq.Lists.List ListNotations <> mod
+def 535:537 <> Bit
+R542:545 Coq.Init.Datatypes <> bool ind
+def 562:570 <> BitString
+R575:578 Coq.Init.Datatypes <> list ind
+R580:582 DJ.Foundations.BitStrings <> Bit def
+def 599:608 <> bit_length
+R627:635 DJ.Foundations.BitStrings <> BitString def
+binder 623:623 <> b:1
+R652:654 Coq.Init.Datatypes <> nat ind
+R662:667 Coq.Init.Datatypes <> length def
+R669:669 DJ.Foundations.BitStrings <> b:1 var
+def 881:883 <> xor
+R892:894 DJ.Foundations.BitStrings <> Bit def
+binder 886:886 <> a:2
+binder 888:888 <> b:3
+R899:901 DJ.Foundations.BitStrings <> Bit def
+R911:914 Coq.Init.Datatypes <> xorb def
+R918:918 DJ.Foundations.BitStrings <> b:3 var
+R916:916 DJ.Foundations.BitStrings <> a:2 var
+def 935:941 <> bit_not
+R948:950 DJ.Foundations.BitStrings <> Bit def
+binder 944:944 <> b:4
+R955:957 DJ.Foundations.BitStrings <> Bit def
+R967:970 Coq.Init.Datatypes <> negb def
+R972:972 DJ.Foundations.BitStrings <> b:4 var
+def 1182:1191 <> count_ones
+R1198:1206 DJ.Foundations.BitStrings <> BitString def
+binder 1194:1194 <> b:5
+R1211:1213 Coq.Init.Datatypes <> nat ind
+R1227:1227 DJ.Foundations.BitStrings <> b:5 var
+R1239:1240 Coq.Lists.List ListNotations ::list_scope:'['_']' not
+R1256:1259 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R1252:1255 Coq.Init.Datatypes <> true constr
+R1271:1271 Coq.Init.Datatypes <> S constr
+R1274:1283 DJ.Foundations.BitStrings <> count_ones:6 def
+R1299:1302 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R1294:1298 Coq.Init.Datatypes <> false constr
+R1314:1323 DJ.Foundations.BitStrings <> count_ones:6 def
+def 1350:1360 <> count_zeros
+R1367:1375 DJ.Foundations.BitStrings <> BitString def
+binder 1363:1363 <> b:8
+R1380:1382 Coq.Init.Datatypes <> nat ind
+R1396:1396 DJ.Foundations.BitStrings <> b:8 var
+R1408:1409 Coq.Lists.List ListNotations ::list_scope:'['_']' not
+R1425:1428 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R1421:1424 Coq.Init.Datatypes <> true constr
+R1435:1445 DJ.Foundations.BitStrings <> count_zeros:9 def
+R1460:1463 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R1455:1459 Coq.Init.Datatypes <> false constr
+R1470:1470 Coq.Init.Datatypes <> S constr
+R1473:1483 DJ.Foundations.BitStrings <> count_zeros:9 def
+def 1706:1711 <> parity
+R1718:1726 DJ.Foundations.BitStrings <> BitString def
+binder 1714:1714 <> b:11
+R1731:1733 DJ.Foundations.BitStrings <> Bit def
+R1747:1747 DJ.Foundations.BitStrings <> b:11 var
+R1759:1760 Coq.Lists.List ListNotations ::list_scope:'['_']' not
+R1765:1769 Coq.Init.Datatypes <> false constr
+R1777:1780 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R1792:1794 DJ.Foundations.BitStrings <> xor def
+R1799:1804 DJ.Foundations.BitStrings <> parity:12 def
+def 1832:1840 <> first_bit
+R1847:1855 DJ.Foundations.BitStrings <> BitString def
+binder 1843:1843 <> b:14
+R1860:1862 DJ.Foundations.BitStrings <> Bit def
+R1876:1876 DJ.Foundations.BitStrings <> b:14 var
+R1888:1889 Coq.Lists.List ListNotations ::list_scope:'['_']' not
+R1894:1898 Coq.Init.Datatypes <> false constr
+R1906:1909 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+def 1937:1944 <> last_bit
+R1961:1969 DJ.Foundations.BitStrings <> BitString def
+binder 1957:1957 <> b:16
+R1984:1986 DJ.Foundations.BitStrings <> Bit def
+R2000:2000 DJ.Foundations.BitStrings <> b:16 var
+R2012:2013 Coq.Lists.List ListNotations ::list_scope:'['_']' not
+R2023:2027 Coq.Init.Datatypes <> false constr
+R2034:2034 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
+R2036:2036 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
+R2054:2055 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R2067:2074 DJ.Foundations.BitStrings <> last_bit:17 def
+def 2296:2304 <> all_zeros
+R2321:2323 Coq.Init.Datatypes <> nat ind
+binder 2317:2317 <> n:19
+R2338:2346 DJ.Foundations.BitStrings <> BitString def
+R2360:2360 DJ.Foundations.BitStrings <> n:19 var
+R2372:2372 Coq.Init.Datatypes <> O constr
+R2377:2378 Coq.Lists.List ListNotations ::list_scope:'['_']' not
+R2385:2385 Coq.Init.Datatypes <> S constr
+R2402:2405 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R2397:2401 Coq.Init.Datatypes <> false constr
+R2406:2414 DJ.Foundations.BitStrings <> all_zeros:20 def
+def 2438:2445 <> all_ones
+R2462:2464 Coq.Init.Datatypes <> nat ind
+binder 2458:2458 <> n:22
+R2479:2487 DJ.Foundations.BitStrings <> BitString def
+R2501:2501 DJ.Foundations.BitStrings <> n:22 var
+R2513:2513 Coq.Init.Datatypes <> O constr
+R2518:2519 Coq.Lists.List ListNotations ::list_scope:'['_']' not
+R2526:2526 Coq.Init.Datatypes <> S constr
+R2542:2545 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R2538:2541 Coq.Init.Datatypes <> true constr
+R2546:2553 DJ.Foundations.BitStrings <> all_ones:23 def
+def 2579:2588 <> append_bit
+R2607:2615 DJ.Foundations.BitStrings <> BitString def
+binder 2603:2603 <> b:25
+R2635:2637 DJ.Foundations.BitStrings <> Bit def
+binder 2631:2631 <> x:26
+R2654:2662 DJ.Foundations.BitStrings <> BitString def
+R2671:2674 Coq.Init.Datatypes <> ::list_scope:x_'++'_x not
+R2670:2670 DJ.Foundations.BitStrings <> b:25 var
+R2675:2675 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
+R2677:2677 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
+R2676:2676 DJ.Foundations.BitStrings <> x:26 var
+def 2920:2932 <> bitstring_eqb
+R2951:2959 DJ.Foundations.BitStrings <> BitString def
+binder 2945:2945 <> x:27
+binder 2947:2947 <> y:28
+R2974:2977 Coq.Init.Datatypes <> bool ind
+R2994:2994 DJ.Foundations.BitStrings <> y:28 var
+R2991:2991 DJ.Foundations.BitStrings <> x:27 var
+R3006:3007 Coq.Lists.List ListNotations ::list_scope:'['_']' not
+R3010:3011 Coq.Lists.List ListNotations ::list_scope:'['_']' not
+R3021:3024 Coq.Init.Datatypes <> true constr
+R3032:3033 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R3039:3040 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R3066:3079 Coq.Init.Datatypes <> ::bool_scope:x_'&&'_x not
+R3054:3061 Coq.Bool.Bool <> eqb def
+R3080:3092 DJ.Foundations.BitStrings <> bitstring_eqb:29 def
+R3120:3124 Coq.Init.Datatypes <> false constr
+def 3343:3356 <> hamming_weight
+R3361:3370 DJ.Foundations.BitStrings <> count_ones def
+def 3385:3400 <> hamming_distance
+R3419:3427 DJ.Foundations.BitStrings <> BitString def
+binder 3413:3413 <> a:32
+binder 3415:3415 <> b:33
+R3442:3444 Coq.Init.Datatypes <> nat ind
+R3460:3460 DJ.Foundations.BitStrings <> b:33 var
+R3458:3458 DJ.Foundations.BitStrings <> a:32 var
+R3472:3473 Coq.Lists.List ListNotations ::list_scope:'['_']' not
+R3475:3476 Coq.Lists.List ListNotations ::list_scope:'['_']' not
+R3489:3490 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R3495:3496 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R3510:3510 Coq.Init.Peano <> ::nat_scope:x_'+'_x not
+R3540:3555 Coq.Init.Peano <> ::nat_scope:x_'+'_x not
+R3514:3521 Coq.Bool.Bool <> eqb def
+R3556:3571 DJ.Foundations.BitStrings <> hamming_distance:34 def
+def 3810:3819 <> flip_first
+R3838:3846 DJ.Foundations.BitStrings <> BitString def
+binder 3834:3834 <> b:37
+R3863:3871 DJ.Foundations.BitStrings <> BitString def
+R3885:3885 DJ.Foundations.BitStrings <> b:37 var
+R3897:3898 Coq.Lists.List ListNotations ::list_scope:'['_']' not
+R3903:3904 Coq.Lists.List ListNotations ::list_scope:'['_']' not
+R3912:3913 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R3933:3936 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R3927:3930 Coq.Init.Datatypes <> negb def
+prf 4154:4175 <> count_zeros_count_ones
+binder 4189:4189 <> b:39
+R4225:4227 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R4210:4212 Coq.Init.Peano <> ::nat_scope:x_'+'_x not
+R4197:4207 DJ.Foundations.BitStrings <> count_zeros def
+R4209:4209 DJ.Foundations.BitStrings <> b:39 var
+R4213:4222 DJ.Foundations.BitStrings <> count_ones def
+R4224:4224 DJ.Foundations.BitStrings <> b:39 var
+R4228:4233 Coq.Init.Datatypes <> length def
+R4235:4235 DJ.Foundations.BitStrings <> b:39 var
+R4336:4344 Coq.Init.Peano <> plus_n_Sm thm
+R4336:4344 Coq.Init.Peano <> plus_n_Sm thm
+R4336:4344 Coq.Init.Peano <> plus_n_Sm thm
+prf 4697:4717 <> hamming_distance_refl
+binder 4731:4731 <> b:40
+R4759:4761 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R4739:4754 DJ.Foundations.BitStrings <> hamming_distance def
+R4756:4756 DJ.Foundations.BitStrings <> b:40 var
+R4758:4758 DJ.Foundations.BitStrings <> b:40 var

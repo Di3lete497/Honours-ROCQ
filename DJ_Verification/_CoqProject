@@ -1,0 +1,16 @@
+-R theories DJ
+theories/Foundations/BitStrings.v
+theories/Foundations/Enumeration.v
+theories/Foundations/Counting.v
+
+theories/Oracles/BooleanFunctions.v
+theories/Oracles/Oracles.v
+theories/Oracles/Promise.v
+
+theories/Verification/Balanced.v
+theories/Verification/OracleProofs.v
+
+theories/DeutschJozsa/DJ.v
+theories/DeutschJozsa/DJProofs.v
+
+theories/Tests/DJTests.v

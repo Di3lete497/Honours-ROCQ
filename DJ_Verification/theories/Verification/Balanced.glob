@@ -1,0 +1,224 @@
+DIGEST 898a5d6cc041981dc08845435e1ab330
+FDJ.Verification.Balanced
+R24:28 Coq.Arith.Arith <> <> lib
+R30:32 Coq.micromega.Lia <> <> lib
+R53:75 DJ.Foundations.Counting <> <> lib
+R94:120 DJ.Oracles.BooleanFunctions <> <> lib
+def 466:473 <> Constant
+R492:494 Coq.Init.Datatypes <> nat ind
+binder 488:488 <> n:1
+R514:519 DJ.Oracles.BooleanFunctions <> Oracle def
+binder 510:510 <> f:2
+R573:578 Coq.Init.Logic <> ::type_scope:x_'\/'_x not
+R569:571 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R547:564 DJ.Foundations.Counting <> count_true_outputs def
+R566:566 DJ.Verification.Balanced <> f:2 var
+R568:568 DJ.Verification.Balanced <> n:1 var
+R602:604 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R579:597 DJ.Foundations.Counting <> count_false_outputs def
+R599:599 DJ.Verification.Balanced <> f:2 var
+R601:601 DJ.Verification.Balanced <> n:1 var
+def 819:826 <> Balanced
+R845:847 Coq.Init.Datatypes <> nat ind
+binder 841:841 <> n:3
+R867:872 DJ.Oracles.BooleanFunctions <> Oracle def
+binder 863:863 <> f:4
+R922:925 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R900:917 DJ.Foundations.Counting <> count_true_outputs def
+R919:919 DJ.Verification.Balanced <> f:4 var
+R921:921 DJ.Verification.Balanced <> n:3 var
+R926:944 DJ.Foundations.Counting <> count_false_outputs def
+R946:946 DJ.Verification.Balanced <> f:4 var
+R948:948 DJ.Verification.Balanced <> n:3 var
+def 1162:1175 <> AlmostBalanced
+R1194:1196 Coq.Init.Datatypes <> nat ind
+binder 1190:1190 <> n:5
+R1216:1218 Coq.Init.Datatypes <> nat ind
+binder 1212:1212 <> k:6
+R1238:1243 DJ.Oracles.BooleanFunctions <> Oracle def
+binder 1234:1234 <> f:7
+R1293:1295 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R1273:1288 DJ.Foundations.Counting <> balance_distance def
+R1290:1290 DJ.Verification.Balanced <> f:7 var
+R1292:1292 DJ.Verification.Balanced <> n:5 var
+R1296:1296 DJ.Verification.Balanced <> k:6 var
+def 1510:1519 <> OracleBias
+R1538:1540 Coq.Init.Datatypes <> nat ind
+binder 1534:1534 <> n:8
+R1560:1565 DJ.Oracles.BooleanFunctions <> Oracle def
+binder 1556:1556 <> f:9
+R1585:1587 Coq.Init.Datatypes <> ::type_scope:x_'*'_x not
+R1582:1584 Coq.Init.Datatypes <> nat ind
+R1588:1590 Coq.Init.Datatypes <> nat ind
+R1598:1609 DJ.Foundations.Counting <> output_ratio def
+R1611:1611 DJ.Verification.Balanced <> f:9 var
+R1613:1613 DJ.Verification.Balanced <> n:8 var
+def 1827:1835 <> DJPromise
+R1854:1856 Coq.Init.Datatypes <> nat ind
+binder 1850:1850 <> n:10
+R1876:1881 DJ.Oracles.BooleanFunctions <> Oracle def
+binder 1872:1872 <> f:11
+R1921:1926 Coq.Init.Logic <> ::type_scope:x_'\/'_x not
+R1909:1916 DJ.Verification.Balanced <> Constant def
+R1918:1918 DJ.Verification.Balanced <> n:10 var
+R1920:1920 DJ.Verification.Balanced <> f:11 var
+R1927:1934 DJ.Verification.Balanced <> Balanced def
+R1936:1936 DJ.Verification.Balanced <> n:10 var
+R1938:1938 DJ.Verification.Balanced <> f:11 var
+def 2152:2158 <> Invalid
+R2177:2179 Coq.Init.Datatypes <> nat ind
+binder 2173:2173 <> n:12
+R2199:2204 DJ.Oracles.BooleanFunctions <> Oracle def
+binder 2195:2195 <> f:13
+R2232:2233 Coq.Init.Logic <> ::type_scope:'~'_x not
+R2234:2242 DJ.Verification.Balanced <> DJPromise def
+R2244:2244 DJ.Verification.Balanced <> n:12 var
+R2246:2246 DJ.Verification.Balanced <> f:13 var
+def 2460:2476 <> PerfectlyBalanced
+R2495:2497 Coq.Init.Datatypes <> nat ind
+binder 2491:2491 <> n:14
+R2517:2522 DJ.Oracles.BooleanFunctions <> Oracle def
+binder 2513:2513 <> f:15
+R2570:2572 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R2550:2565 DJ.Foundations.Counting <> balance_distance def
+R2567:2567 DJ.Verification.Balanced <> f:15 var
+R2569:2569 DJ.Verification.Balanced <> n:14 var
+def 2590:2601 <> NearBalanced
+R2620:2622 Coq.Init.Datatypes <> nat ind
+binder 2616:2616 <> n:16
+R2642:2644 Coq.Init.Datatypes <> nat ind
+binder 2638:2638 <> k:17
+R2664:2669 DJ.Oracles.BooleanFunctions <> Oracle def
+binder 2660:2660 <> f:18
+R2719:2722 Coq.Init.Peano <> ::nat_scope:x_'<='_x not
+R2699:2714 DJ.Foundations.Counting <> balance_distance def
+R2716:2716 DJ.Verification.Balanced <> f:18 var
+R2718:2718 DJ.Verification.Balanced <> n:16 var
+R2723:2723 DJ.Verification.Balanced <> k:17 var
+def 2740:2745 <> Biased
+R2764:2766 Coq.Init.Datatypes <> nat ind
+binder 2760:2760 <> n:19
+R2786:2791 DJ.Oracles.BooleanFunctions <> Oracle def
+binder 2782:2782 <> f:20
+R2821:2822 Coq.Init.Logic <> ::type_scope:'~'_x not
+R2823:2830 DJ.Verification.Balanced <> Balanced def
+R2832:2832 DJ.Verification.Balanced <> n:19 var
+R2834:2834 DJ.Verification.Balanced <> f:20 var
+def 3048:3062 <> PromiseDistance
+R3081:3083 Coq.Init.Datatypes <> nat ind
+binder 3077:3077 <> n:21
+R3103:3108 DJ.Oracles.BooleanFunctions <> Oracle def
+binder 3099:3099 <> f:22
+R3125:3127 Coq.Init.Datatypes <> nat ind
+R3135:3150 DJ.Foundations.Counting <> balance_distance def
+R3152:3152 DJ.Verification.Balanced <> f:22 var
+R3154:3154 DJ.Verification.Balanced <> n:21 var
+def 3171:3183 <> PromiseRobust
+R3202:3204 Coq.Init.Datatypes <> nat ind
+binder 3198:3198 <> n:23
+R3224:3226 Coq.Init.Datatypes <> nat ind
+binder 3220:3220 <> k:24
+R3246:3251 DJ.Oracles.BooleanFunctions <> Oracle def
+binder 3242:3242 <> f:25
+R3298:3301 Coq.Init.Peano <> ::nat_scope:x_'<='_x not
+R3279:3293 DJ.Verification.Balanced <> PromiseDistance def
+R3295:3295 DJ.Verification.Balanced <> n:23 var
+R3297:3297 DJ.Verification.Balanced <> f:25 var
+R3302:3302 DJ.Verification.Balanced <> k:24 var
+def 3319:3333 <> PromiseViolated
+R3352:3354 Coq.Init.Datatypes <> nat ind
+binder 3348:3348 <> n:26
+R3374:3379 DJ.Oracles.BooleanFunctions <> Oracle def
+binder 3370:3370 <> f:27
+R3426:3428 Coq.Init.Peano <> ::nat_scope:x_'>'_x not
+R3407:3421 DJ.Verification.Balanced <> PromiseDistance def
+R3423:3423 DJ.Verification.Balanced <> n:26 var
+R3425:3425 DJ.Verification.Balanced <> f:27 var
+prf 3636:3659 <> balanced_implies_promise
+binder 3673:3673 <> n:28
+binder 3675:3675 <> f:29
+R3693:3699 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3681:3688 DJ.Verification.Balanced <> Balanced def
+R3690:3690 DJ.Verification.Balanced <> n:28 var
+R3692:3692 DJ.Verification.Balanced <> f:29 var
+R3700:3708 DJ.Verification.Balanced <> DJPromise def
+R3710:3710 DJ.Verification.Balanced <> n:28 var
+R3712:3712 DJ.Verification.Balanced <> f:29 var
+prf 3778:3801 <> constant_implies_promise
+binder 3815:3815 <> n:30
+binder 3817:3817 <> f:31
+R3835:3841 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3823:3830 DJ.Verification.Balanced <> Constant def
+R3832:3832 DJ.Verification.Balanced <> n:30 var
+R3834:3834 DJ.Verification.Balanced <> f:31 var
+R3842:3850 DJ.Verification.Balanced <> DJPromise def
+R3852:3852 DJ.Verification.Balanced <> n:30 var
+R3854:3854 DJ.Verification.Balanced <> f:31 var
+prf 3919:3929 <> robust_zero
+binder 3943:3943 <> n:32
+binder 3945:3945 <> f:33
+R3970:3980 Coq.Init.Logic <> ::type_scope:x_'<->'_x not
+R3951:3963 DJ.Verification.Balanced <> PromiseRobust def
+R3965:3965 DJ.Verification.Balanced <> n:32 var
+R3969:3969 DJ.Verification.Balanced <> f:33 var
+R3981:3988 DJ.Verification.Balanced <> Balanced def
+R3990:3990 DJ.Verification.Balanced <> n:32 var
+R3992:3992 DJ.Verification.Balanced <> f:33 var
+prf 4025:4054 <> perfectly_balanced_is_balanced
+binder 4068:4068 <> n:34
+R4075:4080 DJ.Oracles.BooleanFunctions <> Oracle def
+binder 4071:4071 <> f:35
+R4108:4114 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R4087:4103 DJ.Verification.Balanced <> PerfectlyBalanced def
+R4105:4105 DJ.Verification.Balanced <> n:34 var
+R4107:4107 DJ.Verification.Balanced <> f:35 var
+R4115:4122 DJ.Verification.Balanced <> Balanced def
+R4124:4124 DJ.Verification.Balanced <> n:34 var
+R4126:4126 DJ.Verification.Balanced <> f:35 var
+prf 4159:4179 <> constant_not_balanced
+binder 4195:4195 <> n:36
+R4202:4207 DJ.Oracles.BooleanFunctions <> Oracle def
+binder 4198:4198 <> f:37
+R4228:4236 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R4216:4223 DJ.Verification.Balanced <> Constant def
+R4225:4225 DJ.Verification.Balanced <> n:36 var
+R4227:4227 DJ.Verification.Balanced <> f:37 var
+R4237:4238 Coq.Init.Logic <> ::type_scope:'~'_x not
+R4239:4246 DJ.Verification.Balanced <> Balanced def
+R4248:4248 DJ.Verification.Balanced <> n:36 var
+R4250:4250 DJ.Verification.Balanced <> f:37 var
+prf 4281:4299 <> invalid_not_promise
+binder 4313:4313 <> n:38
+R4320:4325 DJ.Oracles.BooleanFunctions <> Oracle def
+binder 4316:4316 <> f:39
+R4343:4349 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R4332:4338 DJ.Verification.Balanced <> Invalid def
+R4340:4340 DJ.Verification.Balanced <> n:38 var
+R4342:4342 DJ.Verification.Balanced <> f:39 var
+R4350:4351 Coq.Init.Logic <> ::type_scope:'~'_x not
+R4352:4360 DJ.Verification.Balanced <> DJPromise def
+R4362:4362 DJ.Verification.Balanced <> n:38 var
+R4364:4364 DJ.Verification.Balanced <> f:39 var
+R4387:4393 DJ.Verification.Balanced <> Invalid def
+prf 4428:4454 <> promise_implies_not_invalid
+binder 4468:4468 <> n:40
+binder 4470:4470 <> f:41
+R4489:4495 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R4476:4484 DJ.Verification.Balanced <> DJPromise def
+R4486:4486 DJ.Verification.Balanced <> n:40 var
+R4488:4488 DJ.Verification.Balanced <> f:41 var
+R4496:4497 Coq.Init.Logic <> ::type_scope:'~'_x not
+R4498:4504 DJ.Verification.Balanced <> Invalid def
+R4506:4506 DJ.Verification.Balanced <> n:40 var
+R4508:4508 DJ.Verification.Balanced <> f:41 var
+prf 4551:4575 <> invalid_equiv_not_promise
+binder 4589:4589 <> n:42
+binder 4591:4591 <> f:43
+R4608:4615 Coq.Init.Logic <> ::type_scope:x_'<->'_x not
+R4597:4603 DJ.Verification.Balanced <> Invalid def
+R4605:4605 DJ.Verification.Balanced <> n:42 var
+R4607:4607 DJ.Verification.Balanced <> f:43 var
+R4616:4617 Coq.Init.Logic <> ::type_scope:'~'_x not
+R4618:4626 DJ.Verification.Balanced <> DJPromise def
+R4628:4628 DJ.Verification.Balanced <> n:42 var
+R4630:4630 DJ.Verification.Balanced <> f:43 var

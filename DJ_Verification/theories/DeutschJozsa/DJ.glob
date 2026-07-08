@@ -1,0 +1,193 @@
+DIGEST 3813e7e39eb82b588fc040bb3a242c00
+FDJ.DeutschJozsa.DJ
+R221:224 Coq.Bool.Bool <> <> lib
+R226:229 Coq.Lists.List <> <> lib
+R242:254 Coq.Lists.List ListNotations <> mod
+R275:299 DJ.Foundations.BitStrings <> <> lib
+R318:344 DJ.Oracles.BooleanFunctions <> <> lib
+R363:380 DJ.Oracles.Oracles <> <> lib
+R401:424 DJ.Verification.Balanced <> <> lib
+R443:460 DJ.Oracles.Promise <> <> lib
+def 674:679 <> Output
+R684:692 DJ.Foundations.BitStrings <> BitString def
+def 906:915 <> zero_state
+R920:928 DJ.Foundations.BitStrings <> all_zeros def
+def 945:954 <> ZeroOutput
+R973:975 Coq.Init.Datatypes <> nat ind
+binder 969:969 <> n:1
+R992:997 DJ.DeutschJozsa.DJ <> Output def
+R1005:1014 DJ.DeutschJozsa.DJ <> zero_state def
+R1016:1016 DJ.DeutschJozsa.DJ <> n:1 var
+ax 1411:1423 <> ApplyHadamard
+R1439:1442 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1430:1438 DJ.Foundations.BitStrings <> BitString def
+R1443:1451 DJ.Foundations.BitStrings <> BitString def
+ax 1467:1477 <> ApplyOracle
+R1490:1493 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1484:1489 DJ.Oracles.BooleanFunctions <> Oracle def
+R1503:1506 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1494:1502 DJ.Foundations.BitStrings <> BitString def
+R1507:1515 DJ.Foundations.BitStrings <> BitString def
+ax 1531:1537 <> Measure
+R1553:1556 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1544:1552 DJ.Foundations.BitStrings <> BitString def
+R1557:1562 DJ.DeutschJozsa.DJ <> Output def
+def 1855:1866 <> DeutschJozsa
+R1885:1890 DJ.Oracles.BooleanFunctions <> Oracle def
+binder 1881:1881 <> f:5
+R1910:1912 Coq.Init.Datatypes <> nat ind
+binder 1906:1906 <> n:6
+R1929:1934 DJ.DeutschJozsa.DJ <> Output def
+R1944:1950 DJ.DeutschJozsa.DJ <> Measure defax
+R1958:1970 DJ.DeutschJozsa.DJ <> ApplyHadamard defax
+R1980:1990 DJ.DeutschJozsa.DJ <> ApplyOracle defax
+R1992:1992 DJ.DeutschJozsa.DJ <> f:5 var
+R2004:2016 DJ.DeutschJozsa.DJ <> ApplyHadamard defax
+R2019:2028 DJ.DeutschJozsa.DJ <> zero_state def
+R2030:2030 DJ.DeutschJozsa.DJ <> n:6 var
+abbrev 2049:2050 <> DJ
+R2055:2066 DJ.DeutschJozsa.DJ <> DeutschJozsa def
+def 2441:2449 <> DJAccepts
+R2468:2473 DJ.Oracles.BooleanFunctions <> Oracle def
+binder 2464:2464 <> f:7
+R2493:2495 Coq.Init.Datatypes <> nat ind
+binder 2489:2489 <> n:8
+R2523:2532 DJ.Oracles.Promise <> OutputZero def
+R2535:2536 DJ.DeutschJozsa.DJ <> DJ abbrev
+R2538:2538 DJ.DeutschJozsa.DJ <> f:7 var
+R2540:2540 DJ.DeutschJozsa.DJ <> n:8 var
+def 2558:2566 <> DJRejects
+R2585:2590 DJ.Oracles.BooleanFunctions <> Oracle def
+binder 2581:2581 <> f:9
+R2610:2612 Coq.Init.Datatypes <> nat ind
+binder 2606:2606 <> n:10
+R2640:2652 DJ.Oracles.Promise <> OutputNonZero def
+R2655:2656 DJ.DeutschJozsa.DJ <> DJ abbrev
+R2658:2658 DJ.DeutschJozsa.DJ <> f:9 var
+R2660:2660 DJ.DeutschJozsa.DJ <> n:10 var
+def 2875:2892 <> DJAlgorithmCorrect
+R2911:2913 Coq.Init.Datatypes <> nat ind
+binder 2907:2907 <> n:11
+R2933:2938 DJ.Oracles.BooleanFunctions <> Oracle def
+binder 2929:2929 <> f:12
+R2966:2966 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R2998:3009 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R3041:3041 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R2979:2984 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2967:2974 DJ.Verification.Balanced <> Constant def
+R2976:2976 DJ.DeutschJozsa.DJ <> n:11 var
+R2978:2978 DJ.DeutschJozsa.DJ <> f:12 var
+R2985:2993 DJ.DeutschJozsa.DJ <> DJAccepts def
+R2995:2995 DJ.DeutschJozsa.DJ <> f:12 var
+R2997:2997 DJ.DeutschJozsa.DJ <> n:11 var
+R3022:3027 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3010:3017 DJ.Verification.Balanced <> Balanced def
+R3019:3019 DJ.DeutschJozsa.DJ <> n:11 var
+R3021:3021 DJ.DeutschJozsa.DJ <> f:12 var
+R3028:3036 DJ.DeutschJozsa.DJ <> DJRejects def
+R3038:3038 DJ.DeutschJozsa.DJ <> f:12 var
+R3040:3040 DJ.DeutschJozsa.DJ <> n:11 var
+def 3255:3264 <> DJVerified
+R3283:3285 Coq.Init.Datatypes <> nat ind
+binder 3279:3279 <> n:13
+R3305:3310 DJ.Oracles.BooleanFunctions <> Oracle def
+binder 3301:3301 <> f:14
+R3354:3363 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R3338:3349 DJ.Oracles.Promise <> PromiseHolds def
+R3351:3351 DJ.DeutschJozsa.DJ <> n:13 var
+R3353:3353 DJ.DeutschJozsa.DJ <> f:14 var
+R3364:3381 DJ.DeutschJozsa.DJ <> DJAlgorithmCorrect def
+R3383:3383 DJ.DeutschJozsa.DJ <> n:13 var
+R3385:3385 DJ.DeutschJozsa.DJ <> f:14 var
+def 3404:3411 <> DJResult
+R3430:3435 DJ.Oracles.BooleanFunctions <> Oracle def
+binder 3426:3426 <> f:15
+R3455:3457 Coq.Init.Datatypes <> nat ind
+binder 3451:3451 <> n:16
+R3474:3479 DJ.DeutschJozsa.DJ <> Output def
+R3487:3488 DJ.DeutschJozsa.DJ <> DJ abbrev
+R3490:3490 DJ.DeutschJozsa.DJ <> f:15 var
+R3492:3492 DJ.DeutschJozsa.DJ <> n:16 var
+def 3509:3516 <> Executes
+R3535:3540 DJ.Oracles.BooleanFunctions <> Oracle def
+binder 3531:3531 <> f:17
+R3560:3562 Coq.Init.Datatypes <> nat ind
+binder 3556:3556 <> n:18
+R3590:3596 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R3603:3607 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+binder 3597:3602 <> result:19
+R3614:3616 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R3608:3613 DJ.DeutschJozsa.DJ <> result:19 var
+R3617:3618 DJ.DeutschJozsa.DJ <> DJ abbrev
+R3620:3620 DJ.DeutschJozsa.DJ <> f:17 var
+R3622:3622 DJ.DeutschJozsa.DJ <> n:18 var
+prf 3829:3845 <> DJ_returns_output
+binder 3859:3859 <> f:20
+binder 3861:3861 <> n:21
+R3867:3873 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R3877:3881 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+binder 3874:3876 <> out:22
+R3888:3890 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R3882:3883 DJ.DeutschJozsa.DJ <> DJ abbrev
+R3885:3885 DJ.DeutschJozsa.DJ <> f:20 var
+R3887:3887 DJ.DeutschJozsa.DJ <> n:21 var
+R3891:3893 DJ.DeutschJozsa.DJ <> out:22 var
+R3928:3929 DJ.DeutschJozsa.DJ <> DJ abbrev
+R3928:3929 DJ.DeutschJozsa.DJ <> DJ abbrev
+prf 3970:3984 <> executes_exists
+binder 3998:3998 <> f:23
+binder 4000:4000 <> n:24
+R4006:4013 DJ.DeutschJozsa.DJ <> Executes def
+R4015:4015 DJ.DeutschJozsa.DJ <> f:23 var
+R4017:4017 DJ.DeutschJozsa.DJ <> n:24 var
+R4051:4058 DJ.DeutschJozsa.DJ <> Executes def
+R4072:4073 DJ.DeutschJozsa.DJ <> DJ abbrev
+R4072:4073 DJ.DeutschJozsa.DJ <> DJ abbrev
+prf 4114:4128 <> DJResult_unfold
+binder 4142:4142 <> f:25
+binder 4144:4144 <> n:26
+R4162:4164 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R4150:4157 DJ.DeutschJozsa.DJ <> DJResult def
+R4159:4159 DJ.DeutschJozsa.DJ <> f:25 var
+R4161:4161 DJ.DeutschJozsa.DJ <> n:26 var
+R4165:4166 DJ.DeutschJozsa.DJ <> DJ abbrev
+R4168:4168 DJ.DeutschJozsa.DJ <> f:25 var
+R4170:4170 DJ.DeutschJozsa.DJ <> n:26 var
+prf 4216:4232 <> DJVerified_unfold
+binder 4246:4246 <> n:27
+binder 4248:4248 <> f:28
+R4268:4278 Coq.Init.Logic <> ::type_scope:x_'<->'_x not
+R4254:4263 DJ.DeutschJozsa.DJ <> DJVerified def
+R4265:4265 DJ.DeutschJozsa.DJ <> n:27 var
+R4267:4267 DJ.DeutschJozsa.DJ <> f:28 var
+R4295:4304 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R4279:4290 DJ.Oracles.Promise <> PromiseHolds def
+R4292:4292 DJ.DeutschJozsa.DJ <> n:27 var
+R4294:4294 DJ.DeutschJozsa.DJ <> f:28 var
+R4305:4322 DJ.DeutschJozsa.DJ <> DJAlgorithmCorrect def
+R4324:4324 DJ.DeutschJozsa.DJ <> n:27 var
+R4326:4326 DJ.DeutschJozsa.DJ <> f:28 var
+prf 4371:4394 <> DJAlgorithmCorrect_split
+binder 4408:4408 <> n:29
+binder 4410:4410 <> f:30
+R4438:4447 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R4416:4433 DJ.DeutschJozsa.DJ <> DJAlgorithmCorrect def
+R4435:4435 DJ.DeutschJozsa.DJ <> n:29 var
+R4437:4437 DJ.DeutschJozsa.DJ <> f:30 var
+R4448:4448 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R4478:4489 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R4519:4519 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R4461:4464 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R4449:4456 DJ.Verification.Balanced <> Constant def
+R4458:4458 DJ.DeutschJozsa.DJ <> n:29 var
+R4460:4460 DJ.DeutschJozsa.DJ <> f:30 var
+R4465:4473 DJ.DeutschJozsa.DJ <> DJAccepts def
+R4475:4475 DJ.DeutschJozsa.DJ <> f:30 var
+R4477:4477 DJ.DeutschJozsa.DJ <> n:29 var
+R4502:4505 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R4490:4497 DJ.Verification.Balanced <> Balanced def
+R4499:4499 DJ.DeutschJozsa.DJ <> n:29 var
+R4501:4501 DJ.DeutschJozsa.DJ <> f:30 var
+R4506:4514 DJ.DeutschJozsa.DJ <> DJRejects def
+R4516:4516 DJ.DeutschJozsa.DJ <> f:30 var
+R4518:4518 DJ.DeutschJozsa.DJ <> n:29 var
